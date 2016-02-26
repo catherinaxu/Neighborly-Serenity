@@ -30,4 +30,6 @@ def pdf_to_text(pdfname):
 
     return text
 
-print pdf_to_text("EA630644-EA493160-EA889874.pdf")
+f = open('output.2.txt', 'w')
+print >> f, pdf_to_text("TESTDOC2.pdf")
+f.close()
