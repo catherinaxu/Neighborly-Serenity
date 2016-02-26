@@ -30,6 +30,6 @@ def pdf_to_text(pdfname):
 
     return text
 
-f = open('output.2.txt', 'w')
-print >> f, pdf_to_text("TESTDOC2.pdf")
+f = open('output.3.txt', 'w')
+print >> f, pdf_to_text("TESTDOC3.pdf")
 f.close()
